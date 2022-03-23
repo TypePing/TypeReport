@@ -1,0 +1,55 @@
+MySQL:
+  ativar: false
+  host: 'localhost'
+  user: 'root'
+  password: ''
+  database: 'minecraft'
+  port: 3306
+
+Comandos:
+  comando_principal: "report"
+  comando_staff: "reports"
+
+Utildades:
+  console_log: true #--> Exibir mensagens opcionais no console (ao carregar, salvar player e etc)
+  exibir_som: true #--> Exibir sons quando ocorrer um erro, abrir um inventario e etc
+  glow_ao_selecionar: true #--> Glow ao selecionar algum motivo
+  delay_para_reportar: 30 #segundos
+
+Mensagens:
+  comando_incompleto:
+    - "&cUtilize &7/report <player>"
+  Voce_ja_reportou_este_jogador:
+    - "&cVoce ja reportou este jogador!"
+  report_enviado:
+    - "&aReport enviado com sucesso!"
+  report_recebido_staff:
+    - ""
+    - "&e&lNOVO REPORT"
+    - ""
+    - "&7Um novo report foi recebido"
+    - "&7Use &e/reports &7para visualizar"
+    - ""
+  esta_em_delay:
+    - "&cRestam &e{tempo} &cpara reportar novamente!"
+  ja_pode_reportar_novamente:
+    - "&7Voce ja pode reportar novamente!"
+  sem_permissao:
+    - "&7Para executar esta acao requer cargo &a[Moderador] &7ou acima!"
+  acao_executada:
+    - "&aVoce executou a acao &e{acao} &ano player &e{player} &acom sucesso!"
+  report_deltado:
+    - "&aReport &cdeletado &acom sucesso!"
+  digite_motivo:
+    - ""
+    - "&eDigite o &7motivo &edo report"
+    - "&7Digite &ecancelar &7para cancelar esta operacao!"
+    - ""
+  digite_prova:
+    - ""
+    - "&eDigite a &7prova &edo report"
+    - "&7Digite &ecancelar &7para cancelar esta operacao!"
+    - ""
+  operacao_cancelada:
+    - "&7Operacao cancelada!"
+  

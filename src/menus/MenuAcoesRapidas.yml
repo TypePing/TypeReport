@@ -1,0 +1,54 @@
+tamanho: 3
+Itens:
+  Warn:
+    skull: "http://textures.minecraft.net/texture/4b599c618e914c25a37d69f541a22bebbf751615263756f2561fab4cfa39e"
+    id: 1
+    data: 0
+    nome: "&aWarn"
+    lore:
+      - ""
+      - "&7Avise o player que ele esta"
+      - "&7Fazendo algo errado!"
+      - ""
+      - "&e- &7Cargo Minimo: &e[Suporte]"
+      - ""
+    slot_inv: 10
+    permissao: "typereport.acoes.warn"
+    comandos:
+      - "warn {player}"
+      - "say {player} foi avisado"
+
+  Mute:
+    skull: "http://textures.minecraft.net/texture/fca5bff325ed71d97a2ddfc83acf05fe7fd9cb7cbdb15ebb4f05621907e9f2b"
+    id: 1
+    data: 0
+    nome: "&eMute"
+    lore:
+      - ""
+      - "&7Silencie o jogador"
+      - ""
+      - "&e- &7Cargo Minimo: &a[Moderador]"
+      - ""
+    slot_inv: 13
+    permissao: "typereport.acoes.mute"
+    comandos:
+      - "mute {player}"
+      - "say {player} foi mutado"
+
+  Ban:
+    skull: "http://textures.minecraft.net/texture/61856c7b378d350262143843d1f9fbb21911a71983ba7b39a4d4ba5b66bedc6"
+    id: 1
+    data: 0
+    nome: "&cBAN"
+    lore:
+      - ""
+      - "&7Bana o jogador"
+      - ""
+      - "&e- &7Cargo Minimo: &c[Administrador]"
+      - ""
+    slot_inv: 16
+    permissao: "typereport.acoes.ban"
+    comandos:
+      - "ban {player}"
+      - "perdon {player}"
+      - "say {player} foi banido"

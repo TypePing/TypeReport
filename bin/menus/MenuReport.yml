@@ -1,0 +1,11 @@
+title: "&7Reports Pendentes"
+Item:
+  nome: "&e{player}"
+  lore:
+    - ""
+    - "&e- &7Foram feitas &e{quantia} &7acusasoes"
+    - ""
+    - "&aClique com &eBotao esquerdo &apara ver detalhes"
+    - "&aClique com &eBotao direito &apara abrir acoes rapidas"
+    - "&aClique com &eBotao direito + SHIFT &apara &cEXCLUIR &ao report"
+    - ""
